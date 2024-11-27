@@ -11,8 +11,8 @@ import {
   Post,
 } from '@nestjs/common';
 import { ExercisesService } from './exercises.service';
-import { CreateExerciseDto } from 'src/dto/create-exercise.dto';
-import { UpdateExerciseDto } from 'src/dto/update-exercise.dto';
+import { CreateExerciseDto } from 'src/dto/exercise/create-exercise.dto';
+import { UpdateExerciseDto } from 'src/dto/exercise/update-exercise.dto';
 
 @Controller('exercises')
 export class ExercisesController {

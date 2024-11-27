@@ -1,8 +1,8 @@
 import { Injectable } from '@nestjs/common';
 import { InjectModel } from '@nestjs/mongoose';
 import { Model } from 'mongoose';
-import { CreateExerciseDto } from 'src/dto/create-exercise.dto';
-import { UpdateExerciseDto } from 'src/dto/update-exercise.dto';
+import { CreateExerciseDto } from 'src/dto/exercise/create-exercise.dto';
+import { UpdateExerciseDto } from 'src/dto/exercise/update-exercise.dto';
 import { Exercise } from 'src/schemas/exercise.schema';
 
 @Injectable()
